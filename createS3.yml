@@ -4,3 +4,5 @@ Resources:
 Outputs: 
   BucketArn: 
     Value: !GetAtt S3Bucket.Arn
+  Id:
+    Value: !Ref S3Bucket
