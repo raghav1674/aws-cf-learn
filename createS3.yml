@@ -1,0 +1,6 @@
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
+Outputs: 
+  BucketArn: 
+    Value: !GetAtt S3Bucket.Arn
